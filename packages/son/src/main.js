@@ -47,6 +47,8 @@ import App from './App.vue'
 import ElementUI from 'element-ui'
 import router from './router'
 import singleSpaVue from 'single-spa-vue'
+import './plugins'
+
 Vue.config.productionTip = false
 /**
  * 子应用main.js
